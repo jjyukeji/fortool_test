@@ -1,0 +1,27 @@
+spring:
+  # 配置数据源
+  datasource:
+    # 使用阿里的Druid连接池
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    # 填写你数据库的url、登录名、密码和数据库名
+    url: jdbc:mysql://127.0.0.1:3306/javaweb-cloud?useUnicode=true&characterEncoding=UTF-8&serverTimezone=GMT%2b8&useSSL=true&tinyInt1isBit=false
+    username: root
+    password:
+
+  servlet:
+    multipart:
+      # 过滤springmvc的文件上传
+      enabled: false
+      # 单个文件最大值
+      max-file-size: 50MB
+      # 上传文件总的最大值
+      max-request-size: 100MB
+
+file:
+  #上传的服务器上的映射文件夹
+  accessPath: /uploads/
+  #静态资源对外暴露的访问路径
+  staticAccessPath: /**
+  #静态资源实际存储路径
+  uploadFolder: E:\JavaWeb_Cloud\uploads\
