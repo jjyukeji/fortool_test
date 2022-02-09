@@ -34,7 +34,9 @@ admin | 123456| 演示环境无法进行修改删除操作
 
 ## 👷 技术支持
 
-[技术支持QQ：1451478873](http://wpa.qq.com/msgrd?v=3&amp;uin=1451478873&amp;site=qq&amp;menu=yes)
+`如需购买授权版，可扫码咨询官方QQ客服`
+
+![扫码咨询](./uploads/demo/img_qq.png "上海JavaWeb研发中心")
 
 ## 📌 版本说明
 
