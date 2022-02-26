@@ -8,4 +8,7 @@ package com.javaweb.common.redis.config;
  * @date 2022/2/2617:27
  */
 public class test5 {
+    public static void main(String[] args) {
+        System.out.println("test6");
+    }
 }
