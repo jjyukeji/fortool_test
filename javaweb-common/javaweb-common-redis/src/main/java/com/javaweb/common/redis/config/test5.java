@@ -10,5 +10,6 @@ package com.javaweb.common.redis.config;
 public class test5 {
     public static void main(String[] args) {
         System.out.println("test7");
+        System.out.println("test8");
     }
 }
